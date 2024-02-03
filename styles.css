@@ -1,0 +1,53 @@
+.container {
+    background-color: black;
+    padding: 15px;
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.top {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 50%;
+}
+
+.content {
+    background-color: #C7C8CC;
+    padding: 5px;
+    width: 240px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.btns {
+    margin: 210px 10px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+#clear-btn,
+#check-btn {
+    padding: 10px;
+    border-radius: 10px;
+    width: 80px;
+
+}
+
+#user-input {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#results-div {
+    position: absolute;
+}
